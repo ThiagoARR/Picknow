@@ -1,0 +1,797 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: #ccc;
+	font-family: 'Source Sans Pro';
+}
+
+.wraper
+{
+	width: 360px;
+	height: 740px;
+	background:#0C1420;
+	margin: auto;
+}
+
+.block
+{
+	position: absolute;
+	width: 360px;
+	height: 740px;
+	background-color: rgba(50,50,50,0.6);
+	z-index: 0;
+	display: none;
+	transition: 0.3s;
+}
+
+.sidemenu
+{
+	position: absolute;
+	width: 240px;
+	height: 740px;
+	background-color: white;
+	transition: 0.3s;
+	z-index: 0;
+	display: grid;
+	display: none;
+	grid-template-areas: 
+	"head"
+	"list";
+}
+
+.headermenu
+{
+	grid-area: head;
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	color: white;
+
+}
+.wrapheadmenu
+{
+	margin: auto;
+}
+
+.username
+{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.email
+{
+	font-size: 12px;
+	text-align: center;
+}
+
+.headermenu img
+{
+
+}
+
+.picperf
+{	
+	display: flex;
+}
+
+.picperf img
+{
+	border-radius: 50px;
+	text-align: center;
+	align-self: center;
+	margin: auto;
+}
+
+.listmenu
+{
+	grid-area: list;
+	width: 100%;
+	height: 520px;
+	background-color: white;
+}
+
+.wraplistmenu
+{
+	margin-top: 20px;
+}
+
+.itemmenu
+{
+	list-style: none;
+}
+
+.itemmenu a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.itemmenu li
+{
+	margin-top: 20px;
+}
+
+.fa-star
+{
+	font-size: 18px!important;
+}
+
+.mgri
+{
+	margin-left: 20px;
+	font-size: 18px;
+	margin-right: 30px;
+	color: #0f0f0f;
+}
+
+.boxicon
+{
+	width: 18px;
+}
+.fa-times
+{
+	float: right;
+	margin-top: 10px;
+}
+
+.navbar
+{
+	height: 65px;
+	display: flex;
+	align-items: center;
+	margin: auto;
+}
+
+.wrap_actionbar
+{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.fa-bars, .fa-ellipsis-v
+{
+	font-size: 24px;
+	color: white;
+}
+
+.fa-bars
+{
+	margin-left: 25px;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.fa-ellipsis-v
+{
+	margin-right: 25px;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.sectionTitle
+{
+	font-size: 19px;
+	font-weight: lighter;
+}
+
+.wrap_head_body, .wrapcontentrest
+{
+	overflow-y: scroll;
+	height:670px;
+}
+
+.wrapcontentrest::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+.wrapcontentrest::-webkit-scrollbar {
+    width: 5px;
+    background: #F4F4F4;
+}
+.wrapcontentrest::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+.wrap_head_body::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+.wrap_head_body::-webkit-scrollbar {
+    width: 5px;
+    background: #F4F4F4;
+}
+.wrap_head_body::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+.headContent
+{
+	height: 200px;
+	display: flex;
+	align-items: center;
+}
+
+.headRestContent
+{
+	height: auto;
+	padding: 15px;
+	display: flex;
+}
+
+.inforest
+{
+	height: 100px;
+	margin-left: 20px;
+}
+
+.titlerest
+{
+	font-size: 18px;
+	grid-area: title;
+}
+
+.categ
+{
+	font-size: 14px;
+}
+
+.headRestContent
+{
+
+}
+
+.wrap_headContent
+{
+	margin: auto;
+	text-align: center;
+}
+
+.titleHome
+{
+	width: 310px;
+	font-size: 16px;
+	margin: auto;
+	font-family: 'Source Sans Pro';
+	font-weight: lighter;
+	text-align: center;
+}
+
+input
+{
+	margin: auto;
+}
+
+.searchbar
+{
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 50px;
+	border: none;
+	height: 25px;
+	width: 250px;
+	background-color: #ebebeb;
+}
+
+.bodyContent
+{
+
+}
+
+.horariosrest
+{
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.diasemana, .funcionamento
+{
+	font-size: 14.5px;
+}
+
+.negrito
+{
+	font-weight: bold;
+}
+
+.sectioncardapio
+{
+	font-size: 18px;
+	padding: 15px;
+}
+
+.nomeprato
+{
+	font-size: 16px;
+	color: #FB7F7F;
+}
+
+.ingredientes
+{
+	font-size: 13px;
+}
+
+.valor
+{
+	color: green;
+	font-weight: bold;
+}
+
+.pratos
+{
+	display: flex;
+	padding: 15px;
+}
+
+
+
+.wrap_restProx
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.titleSection
+{
+	font-size: 14px;
+	font-family: 'Source Sans Pro';
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.restProx
+{
+	margin-top: 10px;
+	display: flex;
+	overflow-x: scroll;
+}
+
+.restProx::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+.restProx::-webkit-scrollbar {
+    height:4px;
+    background: #F4F4F4;
+}
+.restProx::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+.rest1
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 150px;
+	margin-right: 5px;
+}
+
+.descRest
+{
+	margin-top: 4px;
+	display: grid;
+	grid-template-areas:
+	"title point"
+	"rating rating";
+}
+
+.titleRest
+{
+	font-size: 13px;
+	font-family: 'Source Sans Pro';
+	font-weight: lighter;
+	grid-area: title;
+}
+
+.fa-map-marker-alt
+{
+	margin-left: 10px;
+	grid-area: point;
+	font-size: 13px;
+	margin-top: 2px;
+}
+
+.fa-star
+{
+	grid-area: rating;
+	font-size: 12px;
+}
+
+.lugarFavorito
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+
+.info
+{
+	width: 180px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.descRestaurante
+{
+	font-size: 12px;
+	color: antiquewhite;
+	font-weight: lighter;
+}
+
+.nomeRestaurante
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #FB7F7F;
+}
+
+.fa-angle-right
+{
+margin-top: auto;
+	margin-bottom: auto;
+}
+
+.trocapontos
+{
+	border: none;
+	background: #228B22;
+	color: white;
+	font-size: 13px; 
+	font-weight: lighter;
+	padding: 7px;
+	margin-top: 25px;
+	font-family: 'Source Sans Pro';
+	border-radius: 3px;
+}
+
+.wrappremios
+{
+}
+
+.imgRestPremio
+{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nr
+{
+	text-align: center;
+	margin-top: 10px;
+	font-weight: 600;
+	color: white;
+}
+
+.np
+{
+	margin-top: 5px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 14px;
+	color: antiquewhite;
+}
+
+
+.imgpremio
+{
+	border-radius: 50%;
+}
+
+.premio
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.pontostroca
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background: #345;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+.pontostroca p
+{
+	vertical-align: middle;
+	margin: auto;
+}
+
+.wraplastplaces
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.date
+{
+	text-align: center;
+}
+
+.pointsplace
+{
+	background-color: green;
+	padding: 10px;
+	border-radius: 50%;
+	color: white;
+}
+
+.pontoscont
+{
+
+}
+
+.qtd, .nomeponto
+{
+	color: white;
+	margin-left: 24px;
+}
+
+.qtd
+{
+	font-size: 40px;
+}
+
+.imgperf
+{
+	border-radius: 50%;
+	margin: auto;
+}
+
+.wrappic
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wrappic picture
+{
+	margin: auto;
+	padding: 10px;
+}
+
+.nm, .em
+{
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+
+.nm
+{
+	font-size: 22px;
+}
+
+.visitados
+{
+	width: 90%;
+	background:#2A343D;
+	height: 56px;
+	margin: auto;
+	margin-top: 60px;
+	border-radius: 10px;
+}
+
+.favoritos
+{
+	width: 90%;
+	background: #2A343D;
+	height: 56px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;	
+}
+
+.trocas
+{
+	width: 90%;
+	background: #2A343D;
+	height: 56px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.exemplo4
+{
+	width: 90%;
+	background: #2A343D;
+	height: 56px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;		
+}
+
+
+.wrapvisitados
+{
+	display: flex;
+	margin: auto;
+	width: 90%;
+	height: 56px;
+	justify-content: space-around;
+	border-radius: 10px;
+}
+
+.wrapvisitados *
+{
+	margin: 0;
+}
+
+.fa-utensils, .sectionVisitados, .qtdVisit, .ss, .fa-wallet, .fa-trophy
+{
+	margin: auto;
+}
+
+.sectionVisitados, .qtdVisit
+{
+	color: antiquewhite;
+}
+
+.fa-utensils
+{
+	color: red;
+}
+
+.ss
+{
+	color: gold;
+}
+
+.fa-wallet
+{
+	color: #8B4513;
+}
+
+.fa-trophy
+{
+	color: steelblue;
+}
+
+.qtdVisit
+{
+	font-size: 20px;
+}
+
+.cpf
+{
+	color: white;
+}
+
+.logocont
+{
+	display: flex;	
+}
+
+.logowrap
+{
+	margin: auto;
+	margin-top: 150px;
+}
+
+.logopick
+{
+	margin: auto;
+}
+
+.logincont
+{
+	display: flex;
+}
+
+.formlogin
+{
+	margin: auto;
+	color: white;
+	margin-top: 50px;
+	width: 65%;
+}
+
+.formlogin input
+{
+	border: none;
+	border-bottom: 1px solid #333;
+	background: #0C1420;
+	width: 100%;
+	height: 30px;
+	color: white;
+}
+
+.user, .senha
+{
+	width: 100%;
+}
+
+.senha
+{
+	margin-top: 20px;
+}
+
+.btnlogin
+{
+	margin-top: 30px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px;
+	border: none;
+	background-color: #1E90FF;
+	color: white;
+	font-weight: bold;
+}
+
+.btnGoogle
+{
+	margin-top: 8px;
+	width: 100%;
+	padding: 10px;
+	border-radius: 3px;
+	border: none;
+	background-color: white;
+	color: black;
+	font-weight: bold;	
+}
+
+.formcodigo
+{
+	display: flex;
+}
+
+.wrapcodigo
+{
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.textcodigo
+{
+	font-size: 24px;
+	color: white;
+}
+
+.codigo
+{
+	border: none;
+	padding: 5px;
+	border-radius: 3px;
+	margin-top: 20px;
+}
+
+.btnresgatar
+{
+	padding: 8px;
+	margin-top: 20px;
+	border:none;
+	border-radius: 3px;
+	background-color: skyblue;
+	font-weight: bold;
+}

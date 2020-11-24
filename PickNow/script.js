@@ -1,0 +1,12 @@
+    $(document).ready(function(){
+        $(".fa-bars").click(function(){
+        $(".sidemenu").show();
+        $(".block").show();
+    });
+});
+    $(document).ready(function(){
+        $(".block").click(function(){
+        $(".sidemenu").hide();
+        $(".block").hide();
+    });
+});
